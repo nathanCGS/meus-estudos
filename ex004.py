@@ -1,0 +1,10 @@
+#Dissecando uma váriavel.
+alg = input ('Digite algo: ')
+print('o tipo primitivo é:', type(alg))
+print('{} É um numero? '.format(alg), alg.isnumeric())
+print('{} É somente espaços? '.format(alg), alg.isspace())
+print('{} É alfabetico?'.format(alg), alg.isalpha())
+print('{} É alfa númerico?'.format(alg), alg.isalnum())
+print('{} Está somente em maiusculas?'.format(alg), alg.isupper())
+print('{} Está somente em minusculas?'.format(alg), alg.islower())
+print('{} É capitalizada?'.format(alg), alg.istitle())
